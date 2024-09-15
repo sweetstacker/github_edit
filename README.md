@@ -29,7 +29,7 @@ python your_script_name.py
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Affero GNU General Public License 3.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -62,6 +62,6 @@ python your_script_name.py
 ```
 
 ## 라이센스
-이 프로젝트는 MIT 라이센스에 따라 라이센스가 부여됩니다 - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+이 프로젝트는 Affero GNU General Public License 3.0에 따라 라이센스가 부여됩니다 - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
 ---
