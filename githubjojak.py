@@ -6,7 +6,7 @@ import subprocess
 # Setting
 GITHUB_TOKEN = 'user-token'
 REPO_NAME = 'repo-name'
-START_DATE = datetime.date(2099, 1, 1) #날짜넣기
+START_DATE = datetime.date(2099, 1, 1) #날짜넣기 
 END_DATE = datetime.date.today()
 GITHUB_USERNAME = 'username'
 REPEAT = 1000
@@ -17,7 +17,7 @@ def create_github_repo():
     headers = {'Authorization': f'token {GITHUB_TOKEN}'}
     data = {
         'name': REPO_NAME,
-        'private': False
+        'private': False #true로 할 경우 프라이빗해짐~
     }
     response = requests.post(url, json=data, headers=headers)
     if response.status_code == 201:
