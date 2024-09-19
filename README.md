@@ -21,11 +21,13 @@ This repository demonstrates a Python script for creating a GitHub repository an
     - `GITHUB_TOKEN`: Your GitHub personal access token.
     - `REPO_NAME`: The name of the repository you want to create.
     - `GITHUB_USERNAME`: Your GitHub username.
+    - `subprocess.run(['git', 'config', 'user.name', 'username'], cwd=repo_path, check=True)`: Enter your GitHub username in the username field.
+    - `subprocess.run(['git', 'config', 'user.email', 'user-email'], cwd=repo_path, check=True)`: Enter your GitHub email in the user-email field.
 
 2. Run the script to create the repository and generate daily commits.
 
 ```bash
-python your_script_name.py
+python githubjojak.py
 ```
 
 ## License
@@ -54,11 +56,13 @@ This project is licensed under the Affero GNU General Public License 3.0 - see t
     - `GITHUB_TOKEN`: GitHub 개인 액세스 토큰
     - `REPO_NAME`: 생성할 레포지토리 이름
     - `GITHUB_USERNAME`: GitHub 사용자 이름
+    - `subprocess.run(['git', 'config', 'user.name', 'username'], cwd=repo_path, check=True)`: username란에 GitHub 사용자 이름
+    - `subprocess.run(['git', 'config', 'user.email', 'user-email'], cwd=repo_path, check=True)`: user-email란에 GitHub mail기입
 
 2. 스크립트를 실행하여 레포지토리를 생성하고 매일 커밋을 생성합니다.
 
 ```bash
-python your_script_name.py
+python githubjojak.py
 ```
 
 ## 라이센스
